@@ -12,7 +12,7 @@ import Aboutinside from "./About/Aboutinside";
 
 function App() {
   return (
-<div className="bg-black">
+<div className="bg-zinc-800">
 <Router>
 <Navbar/>
 <Routes>
