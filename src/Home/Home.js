@@ -5,7 +5,7 @@ import Contact from '../Contact/Contact'
 import Projects from '../Projects/Projects'
 
 import { FaDownload } from "react-icons/fa";
-import Pdf from '../finalcv.pdf';
+import Pdf from '../finalcv.docx';
 const Home = () => {
   
   return (
