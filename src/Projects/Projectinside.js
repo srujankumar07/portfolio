@@ -10,19 +10,27 @@ import { projectfour } from '../assets'
 const Projectinside = () => {
     const project=[{
         id:1,
-        src:projectone
+        src:projectone,
+        git:"https://github.com/srujankumar07/portfolio",
+        view:"https://myportfolio-blue-six.vercel.app/",
       },
       {
         id:2,
-        src:projecttwo
+        src:projecttwo,
+        git:"https://github.com/srujankumar07/electronicmart",
+        view:"https://electronicmart-two.vercel.app/",
       },
       {
         id:3,
-        src:projectthree
+        src:projectthree,
+        git:"https://github.com/srujankumar07/todolist",
+        view:"https://todolist-lac-nine.vercel.app/",
       },
       {
         id:4,
-        src:projectfour
+        src:projectfour,
+        git:"https://github.com/srujankumar07/Foodmunch",
+        view:"https://foodmunch-woad.vercel.app/",
       }
     ]
       return (
@@ -39,12 +47,14 @@ const Projectinside = () => {
         
          <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-4 sm:px-4'>
          {
-          project.map(({id,src})=>(
+          project.map(({id,src,git,view})=>(
             <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
-            <img src={src} alt="" className='rounded-md duration-200 hover:scale-105'/>
+              <div className='overflow-hidden rounded-md'>
+              <img src={src} alt="" className='h-40 rounded-md object-cover w-full duration-200 hover:scale-105'/>
+              </div>
             <div className='flex items-center justify-center'>
-              <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 bg-indigo-500 text-white rounded-lg'>demo</button>
-              <button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 bg-gray-300 rounded-lg'>code</button>
+              <a href={view} className='text-center w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 bg-indigo-500 text-white rounded-lg'>demo</a>
+              <a href={git} className='text-center w-1/2 px-6 py-3 m-4  duration-200 hover:scale-105 bg-gray-300 rounded-lg'>code</a>
             </div>
           </div>
           ))
