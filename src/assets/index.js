@@ -3,6 +3,7 @@ import projecttwo from "./projecttwo.jpg";
 import projectthree from "./projectthree.jpg";
 import portimg from "./portimg.jpeg";
 import projectfour from "./projectfour.jpg";
+import projectfive from "./projectfive.jpg";
 import portimg2 from "./portimg2.jpeg";
 import java from "./java.jpg";
 import js from "./js.jpg";
@@ -21,6 +22,7 @@ export{
     projectthree,
     portimg,
     projectfour,
+    projectfive,
     portimg2,
     java,js,css,html,tailwind,git,react,bootstrap,connect,icon,
 };

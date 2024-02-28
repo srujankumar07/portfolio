@@ -3,6 +3,7 @@ import { projectone } from '../assets'
 import { projecttwo } from '../assets'
 import { projectthree } from '../assets'
 import { projectfour } from '../assets'
+import { projectfive } from '../assets'
 
 
 
@@ -31,7 +32,13 @@ const Projectinside = () => {
         src:projectfour,
         git:"https://github.com/srujankumar07/Foodmunch",
         view:"https://foodmunch-woad.vercel.app/",
-      }
+      },
+      {
+        id:5,
+        src:projectfive,
+        git:"https://github.com/srujankumar07/BSbookstore",
+        view:"https://b-sbookstore.vercel.app/",
+      },
     ]
       return (
         <div className=' w-full text-red'>
