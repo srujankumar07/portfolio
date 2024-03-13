@@ -6,7 +6,7 @@ const Aboutinside = () => {
   return (
 
     
-    <div className='container mx-auto flex px-20 py-15 md: flex-col '>
+    <div className='container mx-auto flex px-4 py-15 md: flex-col '>
   <div className=''>
   <section class="text-gray-600 body-font">
   <div class="container mx-auto flex px-5 py-24 md:flex-row flex-col items-center">
@@ -23,7 +23,7 @@ const Aboutinside = () => {
   </div>
 </section>
   </div>
-  <div className='container mx-auto flex  py-24 md: flex-col gap-10 '>
+  <div className='container mx-auto flex py-24 md: flex-col gap-10 '>
     <h1 className='text-4xl text-white underline py-10'>Education</h1>
     <div className='shadow-2xl shadow-cyan-500/50 rounded-3xl'>
     <div class="justify-between py-10 sm:flex">
