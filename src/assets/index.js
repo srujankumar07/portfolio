@@ -14,8 +14,11 @@ import html from "./html.jpg";
 import css from "./css.jpg";
 import bootstrap from "./bootstrap.jpg";
 import connect from "./connect.jpg";
+import express from "./express.jpg";
+import mongodb from "./mongodb.jpg";
+import node from "./node.jpg";
+import sql from "./sql.jpg";
 import icon from "./icon.jpg";
-
 export{
     projectone,
     projecttwo,
@@ -24,5 +27,5 @@ export{
     projectfour,
     projectfive,
     portimg2,
-    java,js,css,html,tailwind,git,react,bootstrap,connect,icon,
+    java,js,css,html,tailwind,git,react,bootstrap,connect,icon,express,mongodb,node,sql
 };

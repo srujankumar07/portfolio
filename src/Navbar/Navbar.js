@@ -65,6 +65,7 @@ const Navbar = () => {
             >
               Contact
             </Link>
+   
           </nav>
         </div>
       </header>

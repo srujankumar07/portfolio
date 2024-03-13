@@ -52,16 +52,16 @@ const Projectinside = () => {
     
       
         
-         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-4 sm:px-4'>
+         <div className=' grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-4 sm:px-4'>
          {
           project.map(({id,src,git,view})=>(
-            <div key={id} className='shadow-md shadow-gray-600 rounded-lg'>
+            <div key={id} className='shadow-2xl shadow-[0_20px_50px_rgba(8,_112,_184,_0.7)] rounded-lg'>
               <div className='overflow-hidden rounded-md'>
               <img src={src} alt="" className='h-40 rounded-md object-cover w-full duration-200 hover:scale-105'/>
               </div>
             <div className='flex items-center justify-center'>
-              <a href={view} className='text-center w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 bg-indigo-500 text-white rounded-lg'>demo</a>
-              <a href={git} className='text-center w-1/2 px-6 py-3 m-4  duration-200 hover:scale-105 bg-gray-300 rounded-lg'>code</a>
+              <a href={view} className='text-center w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 bg-cyan-700 text-white rounded-lg'>demo</a>
+              <a href={git} className='text-center w-1/2 px-6 py-3 m-4  duration-200 hover:scale-105 bg-teal-200 rounded-lg'>code</a>
             </div>
           </div>
           ))

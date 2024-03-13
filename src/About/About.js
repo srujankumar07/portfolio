@@ -11,8 +11,17 @@ const About = () => {
       <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">So,who am I?</h1>
       <p class="mb-8 leading-relaxed">Hi, I'm Srujan Kumar, nice to meet you. I am a Web developer with experience in building websites and web applications. I specialize in JavaScript and have experience working with ReactJS,HTML,CSS and Java.Click the below view more button to know more details about me and my skills</p>
       <div class="flex justify-center">
-        <Link to='./Aboutinside' class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">View More</Link>
-      </div>
+       
+      <div class="relative inline-flex  group">
+        <div
+            class="absolute transitiona-all duration-1000 opacity-70 -inset-px bg-gradient-to-r from-[#44BCFF] via-[#FF44EC] to-[#FF675E] rounded-xl blur-lg group-hover:opacity-100 group-hover:-inset-1 group-hover:duration-200 animate-tilt">
+        </div>
+        <Link to="/Aboutinside" title="Get quote now"
+            class="relative inline-flex items-center justify-center px-8 py-4 text-lg  text-white transition-all duration-200 bg-zinc-800 font-pj rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
+            role="button">View More
+        </Link>
+    </div> </div>
+      
     </div>
   </div>
 </section>

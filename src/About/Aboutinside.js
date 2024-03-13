@@ -23,39 +23,99 @@ const Aboutinside = () => {
   </div>
 </section>
   </div>
-  <div className='container mx-auto flex  py-24 md: flex-col gap-4 '>
+  <div className='container mx-auto flex  py-24 md: flex-col gap-10 '>
     <h1 className='text-4xl text-white underline py-10'>Education</h1>
-    <div className=' flex container py-10 px-5 bg-gray-300 flex-row justify-between '>
-      <div className='flex flex-col'>
-      <h1 className='text-2xl'>BTech in Information Technology </h1>
-      <p>Geethanjali College Of Engineering And Technology(2020-2024)</p>
-      </div>
-      <div className='flex py-2 text-xl'>
-        Aggregate:81%
-      </div>
+    <div className='shadow-2xl shadow-cyan-500/50 rounded-3xl'>
+    <div class="justify-between py-10 sm:flex">
+    <div>
+      <h5 class="text-xl font-bold px-10 text-white">
+      BTech in Information Technology 
+      </h5>
+      <p class="mt-1 text-xs font-medium px-10 text-white">Geethanjali College Of Engineering And Technology(2020-2024)</p>
     </div>
-    <div className='flex container py-10 px-5 bg-gray-300 flex-row justify-between '>
-      <div className='flex flex-col'>
-      <h1 className='text-2xl'>Intermediate in MPC</h1>
-      <p>
-        Narayana Junior College(2018-2020)
-      </p>
-      </div>
-      <div className='flex py-2 text-xl'>
-        Aggregate:95%
-      </div>
+
+    <div class="flex-shrink-0 hidden px-10 ml-3 sm:block">
+      <img
+        class="object-cover w-16 h-16 rounded-lg shadow-sm"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTln1iTkM0LrZhqDm-mnex0DU4r_ZIKoRMpGRpL3UTZeumk5GhIcNCeUS_0NFr5B6WlmmI&usqp=CAU"
+        alt=""
+      />
     </div>
-    <div className='flex container py-10 px-5 bg-gray-300 flex-row justify-between'>
-      <div className='flex flex-col'>
-    <h1 className='text-2xl'>School(10th Standard)</h1>
-      <p>
-        Vijaya Ratna High School(2018)
-      </p>
-      </div>
-      <div className='flex py-2 text-xl'>
-        Aggregate:9.8 cgpa
-      </div>
+  </div>
+
+  
+
+  <dl class="flex mt-6 pb-5">
+    <div class="flex flex-col-reverse">
+      <dt class="text-sm px-10 font-medium text-white">8.3 cgpa</dt>
+      <dd class="text-xs px-10 text-white">Aggregate:</dd>
     </div>
+
+  
+  </dl>
+  </div>
+<div className='shadow-2xl shadow-cyan-500/50 rounded-3xl'>
+  <div class="justify-between py-10 sm:flex">
+    <div>
+      <h5 class="text-xl font-bold px-10 text-white">
+      Intermediate(MPC)
+      </h5>
+      <p class="mt-1 text-xs font-medium px-10 text-white">Narayana Junior College(2018-2020)</p>
+    </div>
+
+    <div class="flex-shrink-0 hidden ml-3 px-10 sm:block">
+      <img
+        class="object-cover w-16 h-16 rounded-lg shadow-sm"
+        src="https://directory.edugorilla.com/wp-content/uploads/sites/6/2019/07/27331579_184477595639800_3532686442370240359_n.jpg"
+        alt=""
+      />
+    </div>
+  </div>
+
+  
+
+  <dl class="flex mt-6 pb-5">
+    <div class="flex flex-col-reverse">
+      <dt class="text-sm px-10 font-medium text-white">95%</dt>
+      <dd class="text-xs px-10 text-white">Aggregate:</dd>
+    </div>
+
+
+  
+  </dl>
+  </div>
+  <div className='shadow-2xl shadow-cyan-500/50 rounded-3xl'>
+  <div class="justify-between py-10 sm:flex  ">
+    <div>
+      <h5 class="text-xl px-10 font-bold text-white">
+      School(10th Standard)
+      </h5>
+      <p class="mt-1 text-xs font-medium px-10 text-white">Vijaya Ratna High School(2018)</p>
+    </div>
+
+    <div class="flex-shrink-0 hidden ml-3 px-10 sm:block">
+      <img
+        class="object-cover w-16 h-16 rounded-lg shadow-sm"
+        src="https://content.jdmagicbox.com/comp/hyderabad/y3/040pxx40.xx40.100616082455.w3y3/catalogue/vijaya-ratna-concept-school-uppal-hyderabad-schools-ov0ns9s51q-250.jpg"
+        alt=""
+      />
+    </div>
+  </div>
+
+  
+
+  <dl class="flex mt-6 pb-5">
+    <div class="flex flex-col-reverse">
+      <dt class="text-sm font-medium px-10 text-white">9.8 cgpa</dt>
+      <dd class="text-xs px-10  text-white">Aggregate:</dd>
+    </div>
+
+  
+  </dl>
+  
+
+  </div> 
+ 
   </div>
     <Skillsinside/>
     </div>
