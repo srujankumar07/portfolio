@@ -16,7 +16,7 @@ const ContactLeft = () => {
         alt="contactImg"
       />
       <div className="flex flex-col gap-4">
-        <h3 className="text-3xl font-bold text-white">Srujan Kumar Balgoni</h3>
+        <h3 className="text-3xl font-bold text-cyan-400">Srujan Kumar Balgoni</h3>
 
         <p className="text-base text-white  tracking-wide">
           To build my career by acquiring a suitable position in a
@@ -25,10 +25,10 @@ const ContactLeft = () => {
           capabilities and technical skills are best utilized.
         </p>
         <p className="text-base text-white flex items-center gap-2">
-          Phone: <span className="text-lightText">+91 9346424298</span>
+          <span className="text-cyan-400">Phone:</span> <span className="text-lightText">+91 9346424298</span>
         </p>
         <p className="text-base text-white flex items-center gap-2">
-          Email:{" "}
+          <span className="text-cyan-400">Email:</span>{" "}
           <span className="text-white">balgonisrujan2002@gmail.com</span>
         </p>
       </div>

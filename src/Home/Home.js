@@ -20,13 +20,12 @@ const Home = () => {
       <p class="mb-8 leading-relaxed">I am a rising senior from Geethanjali College of Engineering and Technology pursuing Bachelor of Technology in Information Technology. The skills I possess include web development and Java programming.</p>
       <div class="flex justify-center">
       <div class="relative inline-flex  group">
-        <div
-            class="absolute transitiona-all duration-1000 opacity-70 -inset-px bg-gradient-to-r from-[#44BCFF] via-[#FF44EC] to-[#FF675E] rounded-xl blur-lg group-hover:opacity-100 group-hover:-inset-1 group-hover:duration-200 animate-tilt">
-        </div>
-        <a href={Pdf} title="Get quote now" download
-            class="relative inline-flex items-center justify-center px-8 py-4 text-lg text-white transition-all duration-200 bg-zinc-800 font-pj rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
-            role="button">Resume
-        </a>
+      <div class="relative inline-flex group">
+    <div class="absolute transition-all duration-1000 opacity-70 -inset-px bg-cyan-400 rounded-xl blur-lg group-hover:opacity-100 group-hover:-inset-1 group-hover:duration-200 animate-tilt">
+    </div>
+    <a href={Pdf} title="Get quote now" download class="relative inline-flex items-center justify-center px-8 py-4 text-lg text-white transition-all duration-200 bg-zinc-800 font-pj rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900" role="button">Resume</a>
+</div>
+
     </div>
       </div>
     </div>

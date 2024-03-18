@@ -14,8 +14,8 @@ const Aboutinside = () => {
       <img class="object-cover object-center rounded" alt="hero" src={portimg2}/>
     </div>
     <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-      <h1 class="title-font sm:text-4xl text-3xl text-white mb-4 font-medium">Welcome to My Portfolio!
-        <br class="hidden  text-white lg:inline-block"/>Who Am I?
+      <h1 class="title-font sm:text-4xl text-3xl text-cyan-400 mb-4 font-medium">Welcome to My Portfolio!
+        <br class="hidden  text-cyan-400 lg:inline-block"/>Who Am I?
       </h1>
       <p class="mb-8  text-white leading-relaxed">Hey there! I'm Srujan Kumar, a passionate and driven IT student, constantly exploring the fascinating realms of software industry. This corner of the web is where my journey, fueled by curiosity and creativity, unfolds.I'm an avid learner, always seeking new challenges to expand my skills. Whether it's delving into web development, experimenting with DSA, or honing my abilities in Full-stack development, I thrive on pushing boundaries and embracing innovation.</p>
       
@@ -24,8 +24,8 @@ const Aboutinside = () => {
 </section>
   </div>
   <div className='container mx-auto flex py-24 md: flex-col gap-10 '>
-    <h1 className='text-4xl text-white underline py-10'>Education</h1>
-    <div className='shadow-2xl shadow-cyan-500/50 rounded-3xl'>
+    <h1 className='text-4xl text-cyan-400 underline py-10'>Education</h1>
+    <div className='shadow-2xl shadow-cyan-400/50 rounded-3xl'>
     <div class="justify-between py-10 sm:flex">
     <div>
       <h5 class="text-xl font-bold px-10 text-white">

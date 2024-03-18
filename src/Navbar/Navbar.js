@@ -44,24 +44,24 @@ const Navbar = () => {
               menuOpen ? 'flex flex-col items-center' : 'hidden'
             } md:flex md:flex-wrap items-center text-base justify-center md:ml-4 mt-4 md:mt-0`}
           >
-            <Link to="/" className="my-2 md:mx-4 hover:text-white text-xl">
+            <Link to="/" className="my-2 md:mx-4    hover:text-cyan-300 hover:shadow-md transition duration-300 text-xl">
               Home
             </Link>
             <Link
               to="/Aboutinside"
-              className="my-2 md:mx-4 hover:text-white text-xl"
+              className="my-2 md:mx-4  hover:text-cyan-300 hover:shadow-md transition duration-300 text-xl"
             >
               About
             </Link>
             <Link
               to="/Projectinside"
-              className="my-2 md:mx-4 hover:text-white text-xl"
+              className="my-2 md:mx-4 hover:text-cyan-300 hover:shadow-md transition duration-300 text-xl"
             >
               Projects
             </Link>
             <Link
               to="/Contactinside"
-              className="my-2 md:mx-4 hover:text-white text-xl"
+              className="my-2 md:mx-4 hover:text-cyan-300 hover:shadow-md transition duration-300 text-xl"
             >
               Contact
             </Link>

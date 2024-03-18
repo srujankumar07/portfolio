@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div>
       <section class="text-white body-font px-5">
-     <h1 className='text-5xl flex items-center justify-center underline'>About</h1>
+     <h1 className='text-5xl text-cyan-400 underline flex items-center justify-center '>About</h1>
   <div class="container mx-auto flex px-5 py-24 items-center justify-center flex-col">
     <div class="text-center lg:w-2/3 w-full">
       <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">So,who am I?</h1>
@@ -14,13 +14,13 @@ const About = () => {
        
       <div class="relative inline-flex  group">
         <div
-            class="absolute transitiona-all duration-1000 opacity-70 -inset-px bg-gradient-to-r from-[#44BCFF] via-[#FF44EC] to-[#FF675E] rounded-xl blur-lg group-hover:opacity-100 group-hover:-inset-1 group-hover:duration-200 animate-tilt">
+            class="absolute transition-all duration-1000 opacity-70 -inset-px bg-cyan-400 rounded-xl blur-lg group-hover:opacity-100 group-hover:-inset-1 group-hover:duration-200 animate-tilt">
         </div>
         <Link to="/Aboutinside" title="Get quote now"
-            class="relative inline-flex items-center justify-center px-8 py-4 text-lg  text-white transition-all duration-200 bg-zinc-800 font-pj rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900"
-            role="button">View More
+            class="relative inline-flex items-center justify-center px-8 py-4 text-lg text-white transition-all duration-200 bg-zinc-800 font-pj rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900" role="button">View More
         </Link>
-    </div> </div>
+    </div> 
+    </div>
       
     </div>
   </div>

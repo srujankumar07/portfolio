@@ -44,8 +44,8 @@ const Projectinside = () => {
         <div className=' w-full text-red'>
          <div className='max-w-screen-lg p-4  mx-auto flex flex-col justify-center w-full h-full'>
          <div className='pb-0 flex flex-col justify-center items-center'>
-           <p className='text-4xl text-white font-bold inline border-b-4 border-gray-500'>Projects</p>
-          <p className='py-6 text-white'>
+           <p className='text-4xl text-cyan-400 font-bold inline underline'>Projects</p>
+          <p className='py-6 text-2xl text-cyan-400'>
             Check out some of my works here
           </p>
         </div>
