@@ -11,7 +11,7 @@ const Contact = () => {
             </div>
       <div className='flex '>
       <h1 className='flex items-center justify-center text-white text-3xl'>
-        <span className='text-cyan-400'>Srujan</span> &nbsp;  <span>Kumar</span>
+        <span className='text-cyan-500'>Srujan</span> &nbsp;  <span>Kumar</span>
       </h1>
       </div>
             </div>
