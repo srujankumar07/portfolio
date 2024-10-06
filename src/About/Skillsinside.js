@@ -65,7 +65,7 @@ const Skillsinside = () => {
     ]
     return (
         <div className='flex flex-col pb-20 container'>
-            <h1 className='flex text-4xl text-cyan-400 underline py-10'>Skills</h1>
+            <h1 className='flex text-4xl text-cyan-400 underline font-garamond items-center justify-center py-10'>Skills</h1>
             <div className='grid grid-cols-2 md:grid-cols-4 gap-8 px-4'>
                 {
                     project.map(({ id, src, skill }) => (

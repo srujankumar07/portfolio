@@ -19,6 +19,14 @@ import mongodb from "./mongodb.jpg";
 import node from "./node.jpg";
 import sql from "./sql.jpg";
 import icon from "./icon.jpg";
+import pxfuel1 from "./pxfuel1.jpg";
+import pxfuel2 from "./pxfuel2.jpg";
+import pxfuel3 from "./pxfuel3.jpg";
+import pxfuel4 from "./pxfuel4.jpg";
+import pxfuel5 from "./pxfuel5.jpg";
+
+
+
 export{
     projectone,
     projecttwo,
@@ -27,5 +35,5 @@ export{
     projectfour,
     projectfive,
     portimg2,
-    java,js,css,html,tailwind,git,react,bootstrap,connect,icon,express,mongodb,node,sql
+    java,js,css,html,tailwind,git,react,bootstrap,connect,icon,express,mongodb,node,sql,pxfuel1,pxfuel2,pxfuel3,pxfuel4,pxfuel5
 };

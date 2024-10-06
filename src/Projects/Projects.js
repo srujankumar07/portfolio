@@ -29,8 +29,8 @@ const Projects = () => {
     <div className='w-full text-red md:h-screen'>
       <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
         <div className='pb-8'>
-          <p className='text-4xl text-cyan-400 underline font-bold inline '>Projects</p>
-          <p className='py-6 text-2xl text-white'>Check out some of my works here</p>
+          <p className='flex text-4xl text-cyan-400 underline items-center justify-center font-garamond font-bold '>Projects</p>
+          <p className='flex items-center justify-center py-6 text-2xl font-nunito text-white'>Check out some of my works here</p>
         </div>
 
         <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0'>
@@ -63,7 +63,7 @@ const Projects = () => {
             class="absolute transition-all duration-1000 opacity-70 -inset-px bg-cyan-400 rounded-xl blur-lg group-hover:opacity-100 group-hover:-inset-1 group-hover:duration-200 animate-tilt">
         </div>
         <Link to="/Projectinside" title="Get quote now"
-            class="relative inline-flex items-center justify-center px-8 py-4 text-lg text-white transition-all duration-200 bg-zinc-800 font-pj rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900" role="button">View More
+            class="relative inline-flex items-center justify-center px-8 py-4 text-lg text-white transition-all duration-200 bg-stone-900 font-pj rounded-xl focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-900" role="button">View More
         </Link>
           </div>
         </div>

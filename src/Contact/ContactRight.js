@@ -69,10 +69,10 @@ const ContactRight = () => {
 
         <div className="w-full flex flex-col lgl:flex-row gap-10">
         <div className="flex justify-center items-center text-center">
-      <h1 className='flex justify-center items-center text-cyan-400 text-4xl underline'>Contact Me</h1>
+      <h1 className='flex justify-center items-center font-garamond text-cyan-400 text-4xl underline'>Contact Me</h1>
     </div>
           <div className="w-full lgl:w-1/2 flex flex-col gap-4">
-            <p className="text-sm text-cyan-400 uppercase tracking-wide">
+            <p className="text-sm text-cyan-400 font-nunito uppercase tracking-wide">
               YOUR NAME
             </p>
             <input
@@ -85,7 +85,7 @@ const ContactRight = () => {
             />
           </div>
           <div className="w-full lgl:w-1/2 flex flex-col gap-4">
-            <p className="text-sm text-cyan-400 uppercase tracking-wide">
+            <p className="text-sm text-cyan-400  font-nunito uppercase tracking-wide">
               PHONE NUMBER
             </p>
             <input
@@ -99,7 +99,7 @@ const ContactRight = () => {
           </div>
         </div>
         <div className="flex flex-col gap-4">
-          <p className="text-sm text-cyan-400 uppercase tracking-wide">EMAIL</p>
+          <p className="text-sm text-cyan-400  font-nunito uppercase tracking-wide">EMAIL</p>
           <input
             onChange={(e) => setEmail(e.target.value)}
             value={email}
@@ -110,7 +110,7 @@ const ContactRight = () => {
           />
         </div>
         <div className="flex flex-col gap-4">
-          <p className="text-sm text-cyan-400 uppercase tracking-wide">
+          <p className="text-sm text-cyan-400 font-nunito uppercase tracking-wide">
             SUBJECT
           </p>
           <input
@@ -123,7 +123,7 @@ const ContactRight = () => {
           />
         </div>
         <div className="flex flex-col gap-4">
-          <p className="text-sm text-cyan-400 uppercase tracking-wide">
+          <p className="text-sm text-cyan-400 font-nunito uppercase tracking-wide">
             MESSAGE
           </p>
           <textarea
@@ -139,7 +139,7 @@ const ContactRight = () => {
         <div className="w-full">
           <button
             onClick={handleSend}
-            className="w-full h-12 bg-[#141518] rounded-lg text-base text-white
+            className="w-full h-12 bg-[#141518] rounded-lg text-base font-nunito text-white
                 tracking-wider uppercase hover:text-white duration-300 hover:border-[1px]
                 hover:border-designColor border-transparent"
           >

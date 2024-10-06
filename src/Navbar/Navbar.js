@@ -18,7 +18,7 @@ const Navbar = () => {
         <div className="px-4 sm:px-6 lg:px-8 mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center justify-between">
           <Link to="/" className="flex title-font font-medium items-center text-white mb-4 md:mb-0">
             <img src={icon} alt="logo" className="w-8 h-8" />
-            <span className="ml-3 text-white text-xl">Srujan Kumar</span>
+            <span className="ml-3 font-pacifico text-white px-4 text-2xl">Srujan Kumar</span>
           </Link>
           <button
             className="md:hidden absolute top-4 right-4 inline-flex items-center p-2 rounded-md text-white"
@@ -44,24 +44,24 @@ const Navbar = () => {
               menuOpen ? 'flex flex-col items-center' : 'hidden'
             } md:flex md:flex-wrap items-center text-base justify-center md:ml-4 mt-4 md:mt-0`}
           >
-            <Link to="/" className="my-2 md:mx-4    hover:text-cyan-300 hover:shadow-md transition duration-300 text-xl">
+            <Link to="/" className="my-2 md:mx-4  font-garamond  hover:text-cyan-300 hover:shadow-md transition duration-300 text-xl">
               Home
             </Link>
             <Link
               to="/Aboutinside"
-              className="my-2 md:mx-4  hover:text-cyan-300 hover:shadow-md transition duration-300 text-xl"
+              className="my-2 md:mx-4 font-garamond hover:text-cyan-300 hover:shadow-md transition duration-300 text-xl"
             >
               About
             </Link>
             <Link
               to="/Projectinside"
-              className="my-2 md:mx-4 hover:text-cyan-300 hover:shadow-md transition duration-300 text-xl"
+              className="my-2 md:mx-4 font-garamond hover:text-cyan-300 hover:shadow-md transition duration-300 text-xl"
             >
               Projects
             </Link>
             <Link
               to="/Contactinside"
-              className="my-2 md:mx-4 hover:text-cyan-300 hover:shadow-md transition duration-300 text-xl"
+              className="my-2 md:mx-4 font-garamond hover:text-cyan-300 hover:shadow-md transition duration-300 text-xl"
             >
               Contact
             </Link>

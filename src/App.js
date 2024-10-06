@@ -12,7 +12,7 @@ import Aboutinside from "./About/Aboutinside";
 
 function App() {
   return (
-<div className="bg-zinc-800">
+
 <Router>
 <Navbar/>
 <Routes>
@@ -22,7 +22,7 @@ function App() {
 <Route path='/Aboutinside' element={<Aboutinside/>}></Route> 
 </Routes>
 </Router> 
-</div>
+
   );
 }
 export default App;

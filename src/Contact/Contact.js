@@ -11,11 +11,11 @@ const Contact = () => {
             </div>
       <div className='flex '>
       <h1 className='flex items-center justify-center text-white text-3xl'>
-        <span className='text-cyan-500'>Srujan</span> &nbsp;  <span>Kumar</span>
+        <span className='text-cyan-500 font-pacifico'>Srujan</span> &nbsp;  <span className='font-pacifico'>Kumar</span>
       </h1>
       </div>
             </div>
-      <p className='flex items-center justify-center text-white text-xl px-12 py-5'>
+      <p className='flex items-center justify-center font-nunito text-white text-xl px-12 py-5'>
       To build my career by acquiring a suitable position in a well-established 
       company<br/> and working hard with commitment and sincerity in a challenging 
        and creative <br/>environment where my capabilities and technical skills are best utilized.
@@ -24,14 +24,14 @@ const Contact = () => {
     <div className="flex gap-4">
             <a
               href="https://github.com/srujankumar07"
-              className="bannerIcon text-white"
+              className="bannerIcon text-cyan-400"
               target="_blank"
               rel="noreferrer"
             >
               <BsGithub />
             </a>
             <a
-              className="bannerIcon text-white"
+              className="bannerIcon text-cyan-400"
               href="https://twitter.com/srujankumar07"
               target="_blank"
               rel="noreferrer"
@@ -41,7 +41,7 @@ const Contact = () => {
             <a
               href="https://www.linkedin.com/in/srujan-kumar-a19316249/"
               target="_blank"
-              className="bannerIcon text-white"
+              className="bannerIcon text-cyan-400"
               rel="noreferrer"
             >
               <FaLinkedinIn />

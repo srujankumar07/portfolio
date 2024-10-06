@@ -1,6 +1,8 @@
 import React from 'react'
 import { portimg2 } from '../assets'
 import Skillsinside from '../About/Skillsinside'
+
+
 const Aboutinside = () => {
   
   return (
@@ -14,24 +16,24 @@ const Aboutinside = () => {
       <img class="object-cover object-center rounded" alt="hero" src={portimg2}/>
     </div>
     <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-      <h1 class="title-font sm:text-4xl text-3xl text-cyan-400 mb-4 font-medium">Welcome to My Portfolio!
-        <br class="hidden  text-cyan-400 lg:inline-block"/>Who Am I?
+      <h1 class="title-font sm:text-4xl text-3xl text-cyan-400 font-nunito mb-4 font-medium">Welcome to My Portfolio!
+        <br class="hidden  text-cyan-400 font-nunito lg:inline-block"/>Who Am I?
       </h1>
-      <p class="mb-8  text-white leading-relaxed">Hey there! I'm Srujan Kumar, a passionate and driven IT student, constantly exploring the fascinating realms of software industry. This corner of the web is where my journey, fueled by curiosity and creativity, unfolds.I'm an avid learner, always seeking new challenges to expand my skills. Whether it's delving into web development, experimenting with DSA, or honing my abilities in Full-stack development, I thrive on pushing boundaries and embracing innovation.</p>
+      <p class="mb-8  text-white leading-relaxed font-nunito">Hey there! I'm Srujan Kumar, a passionate and driven IT student, constantly exploring the fascinating realms of software industry. This corner of the web is where my journey, fueled by curiosity and creativity, unfolds.I'm an avid learner, always seeking new challenges to expand my skills. Whether it's delving into web development, experimenting with DSA, or honing my abilities in Full-stack development, I thrive on pushing boundaries and embracing innovation.</p>
       
     </div>
   </div>
 </section>
   </div>
   <div className='container mx-auto flex py-24 md: flex-col gap-10 '>
-    <h1 className='text-4xl text-cyan-400 underline py-10'>Education</h1>
+    <h1 className='text-4xl text-cyan-400 underline py-10 font-garamond flex items-center justify-center'>Education</h1>
     <div className='shadow-2xl shadow-cyan-400/50 rounded-3xl'>
     <div class="justify-between py-10 sm:flex">
     <div>
-      <h5 class="text-xl font-bold px-10 text-white">
+      <h5 class="text-xl font-bold px-10 text-white font-nunito">
       BTech in Information Technology 
       </h5>
-      <p class="mt-1 text-xs font-medium px-10 text-white">Geethanjali College Of Engineering And Technology(2020-2024)</p>
+      <p class="mt-1 text-xs font-medium px-10 text-white font-nunito">Geethanjali College Of Engineering And Technology(2020-2024)</p>
     </div>
 
     <div class="flex-shrink-0 hidden px-10 ml-3 sm:block">
@@ -47,8 +49,8 @@ const Aboutinside = () => {
 
   <dl class="flex mt-6 pb-5">
     <div class="flex flex-col-reverse">
-      <dt class="text-sm px-10 font-medium text-white">8.3 cgpa</dt>
-      <dd class="text-xs px-10 text-white">Aggregate:</dd>
+      <dt class="text-sm px-10 font-medium text-white font-nunito">8.3 cgpa</dt>
+      <dd class="text-xs px-10 text-white font-nunito">Aggregate:</dd>
     </div>
 
   
@@ -57,10 +59,10 @@ const Aboutinside = () => {
 <div className='shadow-2xl shadow-cyan-500/50 rounded-3xl'>
   <div class="justify-between py-10 sm:flex">
     <div>
-      <h5 class="text-xl font-bold px-10 text-white">
+      <h5 class="text-xl font-bold px-10 text-white font-nunito">
       Intermediate(MPC)
       </h5>
-      <p class="mt-1 text-xs font-medium px-10 text-white">Narayana Junior College(2018-2020)</p>
+      <p class="mt-1 text-xs font-medium px-10 font-nunito  text-white">Narayana Junior College(2018-2020)</p>
     </div>
 
     <div class="flex-shrink-0 hidden ml-3 px-10 sm:block">
@@ -76,8 +78,8 @@ const Aboutinside = () => {
 
   <dl class="flex mt-6 pb-5">
     <div class="flex flex-col-reverse">
-      <dt class="text-sm px-10 font-medium text-white">95%</dt>
-      <dd class="text-xs px-10 text-white">Aggregate:</dd>
+      <dt class="text-sm px-10 font-medium font-nunito text-white">95%</dt>
+      <dd class="text-xs px-10 font-nunito text-white">Aggregate:</dd>
     </div>
 
 
@@ -87,10 +89,10 @@ const Aboutinside = () => {
   <div className='shadow-2xl shadow-cyan-500/50 rounded-3xl'>
   <div class="justify-between py-10 sm:flex  ">
     <div>
-      <h5 class="text-xl px-10 font-bold text-white">
+      <h5 class="text-xl px-10 font-bold font-nunito text-white">
       School(10th Standard)
       </h5>
-      <p class="mt-1 text-xs font-medium px-10 text-white">Vijaya Ratna High School(2018)</p>
+      <p class="mt-1 text-xs font-medium px-10 font-nunito text-white">Vijaya Ratna High School(2018)</p>
     </div>
 
     <div class="flex-shrink-0 hidden ml-3 px-10 sm:block">
@@ -106,8 +108,8 @@ const Aboutinside = () => {
 
   <dl class="flex mt-6 pb-5">
     <div class="flex flex-col-reverse">
-      <dt class="text-sm font-medium px-10 text-white">9.8 cgpa</dt>
-      <dd class="text-xs px-10  text-white">Aggregate:</dd>
+      <dt class="text-sm font-medium px-10 font-nunito text-white">9.8 cgpa</dt>
+      <dd class="text-xs px-10 font-nunito text-white">Aggregate:</dd>
     </div>
 
   
